@@ -1,3 +1,28 @@
+@font-face {
+    font-family: Mont-Bold;
+    src: url(../assets/fonts/Mont-Trial-Bold.ttf);
+}
+
+@font-face {
+    font-family: Mont-Light;
+    src: url(../assets/fonts/Mont-Trial-Light.ttf);
+}
+
+@font-face {
+    font-family: Mont-Regular;
+    src: url(../assets/fonts/Mont-Trial-Regular.ttf);
+}
+
+@font-face {
+    font-family: Mont-SemiBold;
+    src: url(../assets/fonts/Mont-Trial-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Mont-Thin;
+    src: url(../assets/fonts/Mont-Trial-Thin.ttf);
+}
+
 *,
 *::after,
 *::before {
@@ -14,9 +39,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: Mont-Bold;
     font-size: 12px;
-    background-color: #ecf0f3;
+    background-color: #fff;
     color: #a0a5a8;
 }
 
@@ -28,7 +53,7 @@ body {
     min-height: 600px;
     height: 600px;
     padding: 25px;
-    background-color: #ecf0f3;
+    background-color: #fff;
     box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
     border-radius: 12px;
     overflow: hidden;
@@ -67,7 +92,7 @@ body {
     width: 600px;
     height: 100%;
     padding: 25px;
-    background-color: #ecf0f3;
+    background-color: #fff;
     transition: 1.25s;
 }
 
@@ -103,8 +128,8 @@ body {
     letter-spacing: 0.15px;
     border: none;
     outline: none;
-    font-family: "Montserrat", sans-serif;
-    background-color: #ecf0f3;
+    font-family: Mont-SemiBold;
+    background-color: #fff;
     transition: 0.25s ease;
     border-radius: 8px;
     box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
@@ -149,7 +174,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 1.15px;
-    background-color: #4B70E2;
+    background-color: #3652a2;
     color: #f9f9f9;
     box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
     border: none;
@@ -179,7 +204,7 @@ body {
     padding: 50px;
     z-index: 200;
     transition: 1.25s;
-    background-color: #ecf0f3;
+    background-color: #fff;
     overflow: hidden;
     box-shadow: 4px 4px 10px #d1d9e6, -4px -4px 10px #f9f9f9;
 }
