@@ -83,6 +83,30 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .main {
+        transform: scale(0.35);
+    }
+}
+
+@media (max-width: 400px) {
+    .main {
+        transform: scale(0.3);
+    }
+}
+
+@media (max-width: 300px) {
+    .main {
+        transform: scale(0.27);
+    }
+}
+
+@media (max-width: 280px) {
+    .main {
+        transform: scale(0.25);
+    }
+}
+
 .container {
     display: flex;
     justify-content: center;
