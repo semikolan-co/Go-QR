@@ -3,6 +3,8 @@
 
 A website to solve the problem of attendance in Offline Session.
 
+![Cover Image](https://github.com/semikolan-co/Go-QR/blob/master/assets/images/WhatsApp%20Image%202022-10-20%20at%2016.15.38.jpeg)
+
 ## Maintainer
 
 - [@satyamsharma17](https://www.github.com/satyamsharma17)
