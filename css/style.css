@@ -308,7 +308,9 @@ footer {
 }
 
 .ftco-footer-social li a:hover {
-  color: #fff;
+  color: #7f72e4;
+  background-color: #fff;
+  transition: 0.3s ;
 }
 
 /* footer section */
@@ -371,11 +373,16 @@ footer {
 }
 
 .footer-section ul.list-unstyled li a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-section ul.list-unstyled li a:hover {
+  padding-left: 10px;
+  transition: 0.3s;
+  color: #fff;
+}
 .footer-section .block-21 .text .heading a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-section .block-21 .meta>div a {
@@ -394,9 +401,10 @@ footer {
   color: rgba(255, 255, 255, 0.4);
 }
 
-.footer-section .ftco-footer-social li a {
+ .ftco-footer-social li a {
   background: #7f72e4;
   color: #fff;
+  transition: 0.3s;
 }
 
 /* solutions */
